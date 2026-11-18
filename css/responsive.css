@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Taste of Boudha and Sherpa Bar — Responsive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero__grid,
+  .split-grid,
+  .listing-band,
+  .contact-grid,
+  .menu-notice,
+  .page-hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero__aside {
+    justify-self: start;
+    text-align: left;
+  }
+
+  .hero__frame {
+    min-height: 360px;
+    max-height: 480px;
+  }
+
+  .pillars-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .atmosphere-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-highlights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --header-height: 64px;
+  }
+
+  .primary-nav,
+  .header-cta {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .brand-link {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-frame {
+    min-height: 0;
+    max-height: 240px;
+    aspect-ratio: 16 / 10;
+  }
+
+  .menu-ledger {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-controls__inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__facts {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .pillars-grid,
+  .gallery-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-card {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-list__row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .menu-row {
+    align-items: flex-start;
+  }
+
+  .menu-row__price {
+    max-width: 48%;
+  }
+
+  .lightbox__stage {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .lightbox__img-wrap {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  .lightbox__btn--prev {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+  }
+
+  .lightbox__btn--next {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  .floating-wa__label {
+    display: none;
+  }
+
+  .floating-wa {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .floating-dock {
+    right: 0.9rem;
+    bottom: 0.9rem;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .brand-link {
+    font-size: 1.02rem;
+    gap: 0.5rem;
+  }
+
+  .brand-link__mark {
+    width: 24px;
+    height: 24px;
+  }
+}
