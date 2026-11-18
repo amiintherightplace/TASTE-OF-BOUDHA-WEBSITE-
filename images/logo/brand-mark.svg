@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Taste of Boudha and Sherpa Bar emblem">
+  <rect width="64" height="64" rx="12" fill="#171614" />
+  <rect x="4" y="4" width="56" height="56" rx="9" fill="none" stroke="#C59B52" stroke-opacity="0.45" stroke-width="1.25" />
+  <!-- Stylized Himalayan ridge -->
+  <path d="M12 42 L25 22 L33 33 L41 19 L52 42 Z" fill="none" stroke="#C59B52" stroke-width="2" stroke-linejoin="round" />
+  <!-- Boudha stupa spire accent -->
+  <circle cx="32" cy="14" r="2.2" fill="#C59B52" />
+  <line x1="14" y1="47" x2="50" y2="47" stroke="#E8DFCE" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" />
+</svg>
